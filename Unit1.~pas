@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, IdBaseComponent, IdComponent, IdTCPConnection,
-  IdTCPClient, IdHTTP;
+  IdTCPClient, IdHTTP, ExtCtrls;
 
 type
   TForm1 = class(TForm)
@@ -14,6 +14,7 @@ type
     Edit3: TEdit;
     Button1: TButton;
     H: TIdHTTP;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
 
 {
